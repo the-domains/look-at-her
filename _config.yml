@@ -1,28 +1,40 @@
-name: Look at her
-favicon: null
-layout_spectrum: 0.5376688411924988
-typography_spectrum: 0.14032516162842512
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7616488
+  brandStrength: 0.1143623876851052
+  lightness: 0.7096774
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.1143623876851052
-  lightness: 0.7576751089654863
-  saturation: 0.639670261181891
-  rhythmicContrast: 0.3448942059185356
-purpose: []
+  rhythmicContrast: 0.2992831
+typography_spectrum: 0.05734767
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.3172043
+favicon: null
+name: Look at her
